@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Praktikum 6.3 | Syakira Raihana</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: bisque;
+        }
+        .container {
+            flex-direction: column;
+            display: flex;
+            margin: 50px;
+            width: 1250px;
+        }
+        .header {
+            margin: 10px;
+            height: 100px;
+            width: 1225px;
+            background-color: lightblue;
+        }
+        .div {
+            width: 1300px;
+            height: auto;
+            display: flex;
+        }
+        .div .aside {
+            width: 300px;
+            height: 400px;
+            margin: 10px;
+            background-color: aquamarine;
+        }
+        .div .article {
+            width: 905px;
+            height: 395px;
+            margin: 10px;
+            background-color: dodgerblue;
+            display: flex;
+        }
+        .div .article .img {
+            width : 250px;
+            height: 150px;
+            margin-top: 200px;
+            margin-left: 15px;
+        }
+        .footer {
+            width: 1225px;
+            height: 100px;
+            background-color: deepskyblue;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+
+        <div class="div">
+            <div class="aside">aside</div>
+            <div class="article">Article
+                <div><img class="img" src="teratai.jpg" alt=""></div>
+                <div><img class="img" src="teratai.jpg" alt=""></div>
+                <div><img class="img" src="teratai.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
